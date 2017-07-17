@@ -1,7 +1,7 @@
-# statcourse
-Just a placeholder for some ideas for a statistics class, at about the same level and with the same practical motivations as the mlcourse.
+# Practical Statistics for Data Scientists
+Just a placeholder for some ideas for a statistics class, at about the same level and with the same practical motivations as [DSGA 1003](https://github.com/davidrosenberg/mlcourse).
 
-* Anomaly Detection / Powering a Test
+#### Anomaly Detection / Powering a Test
 - And what's the deal with [one-tailed vs two-tailed tests](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/)?
 - Suppose we fix the maximum acceptable false alarm rate (i.e. Type 1 error) go some level, say 5%.
 - And suppose our sample space is X, and our null hypothesis is some distribution P on X.
