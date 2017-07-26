@@ -15,3 +15,5 @@ Just a placeholder for some ideas for a statistics class, at about the same leve
 - For the standard example of [one-tailed vs two-tailed tests](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/), the two-tailed test is able to detect means that are either too high or too low, while the one-tailed test focuses on just one type of deviation, say too high.  For the same false alarm rate, the one-tailed test can detect smaller deviations from mean 0, but it will only detect means that are too high, and will not detect means that are too low.
 - This difference doesn't seem that exciting in one dimension, but in higher dimensions, it becomes increasingly helpful to have a particular set of "alternative hypotheses" that you want to focus your attention on detecting.  
 - Bring in the term power...
+
+#### Bandits vs A/B Testing
