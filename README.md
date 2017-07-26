@@ -17,3 +17,4 @@ Just a placeholder for some ideas for a statistics class, at about the same leve
 - Bring in the term power...
 
 #### Bandits vs A/B Testing
+- [Google's Bandit FAQ](https://support.google.com/analytics/answer/2847021?hl=en&ref_topic=2844866)
