@@ -2,9 +2,10 @@
 Just a placeholder for some ideas for a statistics class, at about the same level and with the same practical motivations as [DSGA 1003](https://github.com/davidrosenberg/mlcourse).
 
 # Course Pitch
-This course is largely about three main topics: parameter estimation, hypothesis testing, and confidence intervals.  We'll be discussing both classical and modern frequentist methods, as well as Bayesian analogues of these problems.  While we have theorems guaranteeing performance of many of these methods under certain assumptions, we want to gain intuition on how things work in a wide variety of situations, including when the theorem assumptions don't hold.  To this end, we'll spend a fair bit of time discussing ways to evaluate procedures empirically and developing our testbed to do so.  On the one hand we hope to get a visceral feel for the meaning of theorems by extensivie illustration through simulation, and at the same time get an intuitive sense for what changes when the theorems don't apply.  Moreover, we'll gain experience in evaluating procedures in scenarios where we don't have any relevant theorems to guide us.  Once we have a firm foundation in performance evaluation, we'll follow a selection of the most interesting and practical methods from classical and modern statistics, comparing all of them through their performance on our testbed. 
+This course is largely about three main topics: parameter estimation, hypothesis testing, and confidence intervals.  We'll be discussing both classical and modern frequentist methods, as well as Bayesian analogues of these problems.  While we have theorems guaranteeing performance of many of these methods under certain assumptions, we want to gain intuition on how things work in a wide variety of situations, including when the theorem assumptions don't hold.  To this end, we'll spend a fair bit of time discussing ways to evaluate procedures empirically and developing our testbed to do so.  On the one hand we hope to get a visceral feel for the meaning of theorems by extensive illustration through simulation, and at the same time get an intuitive sense for what changes when the theorems don't apply.  Moreover, we'll gain experience in evaluating procedures in scenarios where we don't have any relevant theorems to guide us.  Once we have a firm foundation in performance evaluation, we'll follow a selection of the most interesting and practical methods from classical and modern statistics, comparing all of them through their performance on our testbed. 
 
-#### Anomaly Detection / Powering a Test
+# Topics
+## Anomaly Detection / Powering a Test
 - And what's the deal with [one-tailed vs two-tailed tests](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/)?
 - Suppose we fix the maximum acceptable false alarm rate (i.e. Type 1 error) go some level, say 5%.
 - And suppose our sample space is X, and our null hypothesis is some distribution P on X.
@@ -19,5 +20,5 @@ This course is largely about three main topics: parameter estimation, hypothesis
 - This difference doesn't seem that exciting in one dimension, but in higher dimensions, it becomes increasingly helpful to have a particular set of "alternative hypotheses" that you want to focus your attention on detecting.  
 - Bring in the term power...
 
-#### Bandits vs A/B Testing
+## Bandits vs A/B Testing
 - [Google's Bandit FAQ](https://support.google.com/analytics/answer/2847021?hl=en&ref_topic=2844866)
