@@ -22,3 +22,7 @@ This course is largely about three main topics: parameter estimation, hypothesis
 
 ## Bandits vs A/B Testing
 - [Google's Bandit FAQ](https://support.google.com/analytics/answer/2847021?hl=en&ref_topic=2844866)
+
+## Mixed Effects Models
+- What are they used for?  How do they unify various statistical approaches to generalized linear modeling?
+- What are they mathematically?  How do they relate to regularized linear regression and empirical Bayes linear regression?
