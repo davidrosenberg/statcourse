@@ -20,13 +20,17 @@ This course is largely about three main topics: parameter estimation, hypothesis
 - For the standard example of [one-tailed vs two-tailed tests](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/), the two-tailed test is able to detect means that are either too high or too low, while the one-tailed test focuses on just one type of deviation, say too high.  For the same false alarm rate, the one-tailed test can detect smaller deviations from mean 0, but it will only detect means that are too high, and will not detect means that are too low.
 - This difference doesn't seem that exciting in one dimension, but in higher dimensions, it becomes increasingly helpful to have a particular set of "alternative hypotheses" that you want to focus your attention on detecting.  
 - Bring in the term power...
-
+## Bootstrap 
+- Follow [Hesterberg](https://arxiv.org/pdf/1411.5279.pdf). (See e.g. section 4.5 on CLT for t statistics with skew)
 ## Bandits vs A/B Testing
-- [Google's Bandit FAQ](https://support.google.com/analytics/answer/2847021?hl=en&ref_topic=2844866)
+- [Google's Bandit FAQ](https://support.google.com/analytics/answer/2847021?hl=en&ref_topic=2844866**
 
 ## Mixed Effects Models
 - What are they used for?  How do they unify various statistical approaches to generalized linear modeling?
 - What are they mathematically?  How do they relate to regularized linear regression and empirical Bayes linear regression?
 
-## Other resources
+# Other resources
 - http://www.statslab.cam.ac.uk/Dept/People/djsteaching/teaching17.html
+## Books
+- [Practical Statistics for Data Scientists](https://www.amazon.com/dp/149207294X/ref=cm_sw_em_r_mt_dp_U_AwI9EbA1C8SNW)
+- 
